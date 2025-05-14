@@ -40,8 +40,8 @@ const programData: ProgramItem[] = [
         id: 4,
         program: 'graduate',
         type: 'Full-time',
-        title: "Master of Science in Data Science",
-        description: "Master statistical methods, machine learning, and big data analysis to uncover insights in data-driven fields.",
+        title: "MBA",
+        description: "Master in Business Administrator",
         duration: "2 Years",
         credits: "16 Credits",
         // Array of images for gallery display
