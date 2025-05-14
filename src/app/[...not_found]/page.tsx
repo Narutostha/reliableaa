@@ -1,31 +1,61 @@
+"use client";
 import React from 'react';
-import ErrorBgImg from "../../../public/assets/images/bg/error-bg.webp";
 import Link from 'next/link';
+// Import a png or jpg version instead of webp to avoid the Sharp library issue
+// If you have the file in another format, use that. Otherwise, we'll create a workaround.
+import { usePathname } from 'next/navigation';
 
-const GlobalErrorPage = () => {
+const NotFound = () => {
+    const pathname = usePathname();
+
     return (
         <>
-            {/* -- error content area start -- */}
-            <section className="bd-error-area bd-error-bg d-flex align-items-center justify-content-center fix" style={{ backgroundImage: `url(${ErrorBgImg.src})` }}>
+            <div className="error-page-area">
                 <div className="container">
-                    <div className="row justify-content-center align-items-center">
-                        <div className="col-xxl-6 col-xl-8 col-lg-6 col-md-8">
-                            <div className="bd-error-wrapper text-center">
-                                <h1 className="error-heading-title">404</h1>
-                                <h2 className="bd-section-title white-text mb-20">Oops! Page Not Found</h2>
-                                <p className="bd-section-paragraph">{`We're`} really sorry but we {`can't`} seem to find the page you
-                                    were looking for.</p>
-                                <div className="error-btn">
-                                    <Link href="/" className="bd-btn btn-primary">Back To Home</Link>
+                    <div className="row justify-content-center">
+                        <div className="col-lg-8">
+                            <div className="error-content text-center">
+                                <div className="error-image">
+                                    {/* Use a div with background image set in CSS instead of direct Image component */}
+                                    <div 
+                                        className="error-bg-image" 
+                                        style={{ 
+                                            height: "300px", 
+                                            width: "100%", 
+                                            position: "relative",
+                                            marginBottom: "30px"
+                                        }}
+                                    >
+                                        <div 
+                                            style={{ 
+                                                position: "absolute", 
+                                                top: "50%", 
+                                                left: "50%", 
+                                                transform: "translate(-50%, -50%)",
+                                                fontSize: "120px",
+                                                fontWeight: "bold",
+                                                color: "#f44336"
+                                            }}
+                                        >
+                                            404
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="error-text">
+                                    <h2>Page Not Found</h2>
+                                    <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+                                    <p>Requested path: <code>{pathname}</code></p>
+                                    <div className="error-button">
+                                        <Link href="/" className="bd-btn btn-primary">Back to Home</Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            {/* -- error content area end -- */}
+            </div>
         </>
     );
 };
 
-export default GlobalErrorPage;
+export default NotFound;

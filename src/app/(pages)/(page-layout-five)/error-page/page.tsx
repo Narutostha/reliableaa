@@ -1,26 +1,60 @@
-import Link from "next/link";
-import ErrorBgImg from "../../../../../public/assets/images/bg/error-bg.webp";
+"use client";
+import React from 'react';
+import Link from 'next/link';
+import Breadcrumb from '@/components/common/Breadcrumb/Breadcrumbs';
+// Removing the problematic import
 
-export default function Custom404() {
+const ErrorPage = () => {
     return (
-        // -- error content area start --
-        <section className="bd-error-area bd-error-bg d-flex align-items-center justify-content-center fix" style={{ backgroundImage: `url(${ErrorBgImg.src})` }}>
-            <div className="container">
-                <div className="row justify-content-center align-items-center">
-                    <div className="col-xxl-6 col-xl-8 col-lg-6 col-md-8">
-                        <div className="bd-error-wrapper text-center">
-                            <h1 className="error-heading-title">404</h1>
-                            <h2 className="bd-section-title white-text mb-20">Oops! Page Not Found</h2>
-                            <p className="bd-section-paragraph">{`We're`} really sorry but we {`can't`} seem to find the page you
-                                were looking for.</p>
-                            <div className="error-btn">
-                                <Link href="/" className="bd-btn btn-primary">Back To Home</Link>
+        <>
+            <Breadcrumb breadcrumbTitle='Error Page' />
+            <div className="error-page-area section-space">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-lg-8">
+                            <div className="error-content text-center">
+                                <div className="error-image">
+                                    {/* Replacing image with styled div */}
+                                    <div 
+                                        className="error-bg-container" 
+                                        style={{ 
+                                            height: "300px", 
+                                            width: "100%", 
+                                            position: "relative",
+                                            backgroundColor: "#f5f5f5",
+                                            borderRadius: "8px",
+                                            marginBottom: "30px"
+                                        }}
+                                    >
+                                        <div 
+                                            style={{ 
+                                                position: "absolute", 
+                                                top: "50%", 
+                                                left: "50%", 
+                                                transform: "translate(-50%, -50%)",
+                                                fontSize: "120px",
+                                                fontWeight: "bold",
+                                                color: "#f44336"
+                                            }}
+                                        >
+                                            404
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="error-text">
+                                    <h2>Oops! Page Not Found</h2>
+                                    <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+                                    <div className="error-button">
+                                        <Link href="/" className="bd-btn btn-primary">Back to Home</Link>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        // -- error content area end --
-    )
-}
+        </>
+    );
+};
+
+export default ErrorPage;

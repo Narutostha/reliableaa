@@ -5,8 +5,22 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
+// Define interfaces for type safety
+interface ProgramItem {
+    id: number;
+    program: string;
+    type: string;
+    title: string;
+    description: string;
+    duration: string;
+    credits: string;
+    images: string[];
+    shapeImage: string;
+    textImage: string;
+}
+
 // Define program data with multiple images per program
-const programData = [
+const programData: ProgramItem[] = [
     {
         id: 1,
         program: 'undergraduate',
@@ -43,18 +57,18 @@ const programData = [
 ];
 
 const UniversityProgrammeArea = () => {
-    const [renderedData, setRenderedData] = useState(programData.slice(0, 6));
-    const [showAll, setShowAll] = useState(false);
-    const [activeFilter, setActiveFilter] = useState('showAll');
+    const [renderedData, setRenderedData] = useState<ProgramItem[]>(programData.slice(0, 6));
+    const [showAll, setShowAll] = useState<boolean>(false);
+    const [activeFilter, setActiveFilter] = useState<string>('showAll');
     
     // Track the current image index for each program
-    const [currentImageIndex, setCurrentImageIndex] = useState({});
+    const [currentImageIndex, setCurrentImageIndex] = useState<Record<number, number>>({});
 
     // Function to change the current image for a program
-    const changeImage = (programId, direction) => {
+    const changeImage = (programId: number, direction: 'next' | 'prev'): void => {
         setCurrentImageIndex(prev => {
             const current = prev[programId] || 0;
-            const programImages = programData.find(p => p.id === programId).images;
+            const programImages = programData.find(p => p.id === programId)?.images || [];
             const totalImages = programImages.length;
             
             if (direction === 'next') {
@@ -66,13 +80,13 @@ const UniversityProgrammeArea = () => {
     };
 
     // Get the current image for a program
-    const getCurrentImage = (program) => {
+    const getCurrentImage = (program: ProgramItem): string => {
         const index = currentImageIndex[program.id] || 0;
         return program.images[index];
     };
 
     // Function to handle the filter logic based on program type
-    const handleProgramData = (programType) => {
+    const handleProgramData = (programType: string): void => {
         setShowAll(false);
         setActiveFilter(programType);
 
@@ -86,7 +100,7 @@ const UniversityProgrammeArea = () => {
     };
 
     // Toggle function to show all programs or revert back
-    const handleShowAll = () => {
+    const handleShowAll = (): void => {
         setShowAll(!showAll);
         setActiveFilter('showAll');
         setRenderedData(showAll ? programData.slice(0, 6) : programData);
