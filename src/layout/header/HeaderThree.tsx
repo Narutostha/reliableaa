@@ -1,6 +1,5 @@
 "use client"
 import Link from 'next/link';
-import React, { useState } from 'react';
 import headerLogo from "../../../public/assets/images/logo/logo.svg";
 import Image from 'next/image';
 import UniversityHeaderMenu from './component/UniversityHeaderMenu';
@@ -9,13 +8,9 @@ import useGlobalContext from '@/hooks/useContexts';
 
 const HeaderThree = () => {
     const { toggleSidebarMenu, scrollDirection } = useGlobalContext();
-    const [openCart, setOpenCart] = useState(false);
-    const [openSearchField, setOpenSearchField] = useState(false);
     
-    const handleSearchToggle = () => {
-        setOpenSearchField(!openSearchField);
-    };
-
+    
+    
     return (
         <>
             <header>

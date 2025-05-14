@@ -59,7 +59,7 @@ const main_menu_data: MenuItem[] = [
       },
       {
         title: "MBA",
-        link: "/program-details/2",
+        link: "/program-details/4",
         pluseIncon: false,
       },
     ],

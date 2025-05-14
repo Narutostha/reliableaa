@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -8,19 +7,12 @@ import SidebarCart from '@/components/common/sidebar-cart/SidebarCart';
 import SidebarMenu from '../sidebar/SidebarMenu';
 import CommonHeaderMainMenu from './component/MainMenu';
 import useGlobalContext from '@/hooks/useContexts';
-import useCart from '@/hooks/useCart';
+
 
 const HeaderFive = () => {
     const { scrollDirection, toggleSidebarMenu } = useGlobalContext();
-    const [openCart, setOpenCart] = useState(false)
-    //cart quantity
-    const { getCartProductQuantity } = useCart();
-    const TotalCartQuantity = getCartProductQuantity();
-    //search functionality
-    const [openSearchField, setOpenSearchField] = useState<boolean>(false);
-    const handleSearchToggle = () => {
-        setOpenSearchField(!openSearchField);
-    };
+    const [openCart, setOpenCart] = useState(false);
+    
 
     return (
         <>
@@ -76,7 +68,6 @@ const HeaderFive = () => {
                 </div>
             </header>
             {/* -- Header area end -- */}
-            {/* header search input */}
             
             <SidebarCart openCart={openCart} setOpenCart={setOpenCart} />
             {/* sidebar cart end */}

@@ -2,9 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import BacktoTop from "@/utils/BacktoTop";
-import FooterFour from "./footer/FooterFour";
 import FooterTwo from "./footer/FooterTwo";
-import HeaderThree from "./header/HeaderThree";
 import HeaderTwo from "./header/HeaderTwo";
 import HeaderOne from "./header/HeaderOne";
 import FooterThree from "./footer/FooterThree";

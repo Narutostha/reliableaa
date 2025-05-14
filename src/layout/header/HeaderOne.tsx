@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -8,20 +7,12 @@ import SidebarCart from '@/components/common/sidebar-cart/SidebarCart';
 import SidebarMenu from '../sidebar/SidebarMenu';
 import CommonHeaderMainMenu from './component/MainMenu';
 import useGlobalContext from '@/hooks/useContexts';
-import useCart from '@/hooks/useCart';
 
 const HeaderFive = () => {
     const { scrollDirection, toggleSidebarMenu } = useGlobalContext();
-    const [openCart, setOpenCart] = useState(false)
-    //cart quantity
-    const { getCartProductQuantity } = useCart();
-    const TotalCartQuantity = getCartProductQuantity();
-    //search functionality
-    const [openSearchField, setOpenSearchField] = useState<boolean>(false);
-    const handleSearchToggle = () => {
-        setOpenSearchField(!openSearchField);
-    };
-
+    const [openCart, setOpenCart] = useState(false);
+    
+    
     return (
         <>
             {/* -- Header area start -- */}
@@ -58,10 +49,7 @@ const HeaderFive = () => {
                                    
                                     <Link className="bd-btn btn-outline-border-primary h-40px" href="/apply-online">Apply</Link>
                                 </div>
-                            {/* <div className="bd-header-sign-btn">
-                                <Link className="bd-btn btn-outline-primary h-40px" href="/sign-in">Login</Link>
-                                <Link className="bd-btn btn-outline-border-primary h-40px" href="/sign-up">Register</Link>
-                            </div> */}
+                           
                             <div className="bd-header-hamburger">
                                 <div className="sidebar-toggle">
                                     <Link onClick={toggleSidebarMenu} href="#" className="bar-icon">
@@ -76,7 +64,6 @@ const HeaderFive = () => {
                 </div>
             </header>
             {/* -- Header area end -- */}
-            {/* header search input */}
             
             <SidebarCart openCart={openCart} setOpenCart={setOpenCart} />
             {/* sidebar cart end */}
