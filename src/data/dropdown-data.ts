@@ -116,23 +116,11 @@ export const productOrderBy: TNiceSelectData[] = [
 export const countryData: TNiceSelectData[] = [
     {
         id: 1,
-        option: "United State",
+        option: "Nepal",
     },
     {
         id: 2,
-        option: "Vietnam",
-    },
-    {
-        id: 3,
-        option: "France",
-    },
-    {
-        id: 4,
-        option: "Japan",
-    },
-    {
-        id: 5,
-        option: "Maldives",
+        option: "Abroad",
     }
 ]
 //program subject data start
@@ -143,28 +131,12 @@ export const programSubject: TNiceSelectData[] = [
     },
     {
         id: 2,
-        option: "Computer Science",
+        option: "BBA",
     },
     {
         id: 3,
-        option: "Civil Engineering",
+        option: "MBA",
     },
-    {
-        id: 4,
-        option: "Business Administration",
-    },
-    {
-        id: 5,
-        option: "Electrical Engineering",
-    },
-    {
-        id: 6,
-        option: "Mechanical Engineering",
-    },
-    {
-        id: 7,
-        option: "Law",
-    }
 ]
 //semester data start
 export const semesterItems: TNiceSelectData[] = [
@@ -197,14 +169,10 @@ export const nationalityItems: TNiceSelectData[] = [
     },
     {
         id: 2,
-        option: "American",
+        option: "Nepali ",
     },
     {
         id: 3,
-        option: "American",
-    },
-    {
-        id: 4,
         option: "Other",
     }
 ]
@@ -231,15 +199,11 @@ export const countryItems: TNiceSelectData[] = [
     },
     {
         id: 2,
-        option: "United State",
+        option: "Nepal",
     },
     {
         id: 3,
-        option: "United Kingdom",
-    },
-    {
-        id: 4,
-        option: "Other",
+        option: "Abroad",
     }
 ]
 //Religion data start

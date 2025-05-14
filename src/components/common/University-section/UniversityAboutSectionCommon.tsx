@@ -28,7 +28,7 @@ const UniversityAboutSectionCommon = () => {
                                 <div className="bd-about-thumb-left">
                                     <div className="bd-about-experience">
                                         <h3 className="bd-about-experience-title">
-                                            <CountUpContent number={20} text='+'/>
+                                            <CountUpContent number={10} text='+'/>
                                        </h3>
                                         <p>Years of Academic Excellence</p>
                                     </div>
@@ -64,7 +64,7 @@ const UniversityAboutSectionCommon = () => {
                                     <span className="bd-section-subtitle">About Us</span>
                                     <h2 className="bd-section-title mb-20">Shaping Futures with Quality <span
                                         className="down-mark-line">Education</span></h2>
-                                    <p className="bd-section-paragraph has-border">Our university is dedicated to providing
+                                    <p className="bd-section-paragraph has-border">Reliable College  is dedicated to providing
                                         transformation education, equipping students with the knowledge, skills, and
                                         experiences essential for lifelong success and global impact.</p>
                                 </div>

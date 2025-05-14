@@ -1,7 +1,6 @@
 import BreadcrumbsTwo from '@/components/common/Breadcrumb/BreadcrumbsTwo';
 import UniversityAboutSectionCommon from '@/components/common/University-section/UniversityAboutSectionCommon';
 import React from 'react';
-import AboutUniversityCampusHistoryArea from './AboutUniversityCampusHistoryArea';
 import AboutUniversityCounterArea from './AboutUniversityCounterArea';
 import UniversityEventSectionCommon from '@/components/common/University-section/UniversityEventSectionCommon';
 import UniversityWhyChooseAreaCommon from '@/components/common/University-section/UniversityWhyChooseAreaCommon';
@@ -12,9 +11,8 @@ import AboutUniversityCampusGalleryArea from './AboutUniversityCampusGalleryArea
 const AboutUniversityMain = () => {
     return (
         <>
-            <BreadcrumbsTwo breadcrumbTwoTitle='About iStudy University' />
+            <BreadcrumbsTwo breadcrumbTwoTitle='About Reliable College ' />
             <UniversityAboutSectionCommon />
-            <AboutUniversityCampusHistoryArea />
             <AboutUniversityCounterArea />
             <UniversityWhyChooseAreaCommon />
             <UniversityCampusAreaCommon />

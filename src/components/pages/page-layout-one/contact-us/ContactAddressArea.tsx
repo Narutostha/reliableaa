@@ -10,7 +10,7 @@ const ContactAddressArea = () => {
                         <div className="col-xl-6 col-lg-8">
                             <div className="bd-section-title-wrapper section-title-space text-center">
                                 <span className="bd-section-subtitle">Locations</span>
-                                <h2 className="bd-section-title mb-20">Our Global Offices</h2>
+                                <h2 className="bd-section-title mb-20">Our Details</h2>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ const ContactAddressArea = () => {
                         <div className="col-xl-12">
                             <div className="bd-contact-map">
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.3995816270603!2d-122.1726349236816!3d37.427664232078364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2a678bea9d%3A0x29cdf01a44fc687f!2sStanford%20University!5e0!3m2!1sen!2sbd!4v1727155102819!5m2!1sen!2sbd" width="600" height="400" style={{ border: '0' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade">
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1360.530599679708!2d85.3465522850524!3d27.68752135619213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198c36fbb763%3A0x17a2693691c20d0f!2sM8QX%2B238%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1747236140284!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" height="400" style={{ border: '0' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade">
                                 </iframe>
                             </div>
                         </div>

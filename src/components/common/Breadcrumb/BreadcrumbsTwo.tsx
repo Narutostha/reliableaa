@@ -21,7 +21,7 @@ const BreadcrumbsTwo = ({breadcrumbTwoTitle}:breadCrumbType) => {
                                     <div className="bd-breadcrumb-content">
                                         <h1 className="bd-breadcrumb-title">{breadcrumbTwoTitle}</h1>
                                         <div className="bd-breadcrumb-list has-white justify-content-start">
-                                            <span><Link href="/">IStudy</Link></span>
+                                            <span><Link href="/">Reliable College </Link></span>
                                             <span className="divider"><i className="fa-regular fa-angle-right"></i></span>
                                             <span className="active">{breadcrumbTwoTitle}</span>
                                         </div>

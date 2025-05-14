@@ -2,7 +2,7 @@ import { ShopFooterMenuLinks } from '@/data/footer-menu/footer-menu-data';
 import { getCurrentYear } from '@/utils/dateUtils';
 import Link from 'next/link';
 import React from 'react';
-import Logo from '../../../public/assets/images/logo/logo.svg';
+import Logo from '../../../public/assets/images/logo/logo.jpg';
 import playStore from '../../../public/assets/images/icon/play-store.webp';
 import appStore from '../../../public/assets/images/icon/app-store.webp';
 import Image from 'next/image';

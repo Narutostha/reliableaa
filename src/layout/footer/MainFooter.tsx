@@ -1,7 +1,7 @@
 import { getCurrentYear } from '@/utils/dateUtils';
 import Link from 'next/link';
 import React, { ReactNode } from 'react';
-import Logo from '../../../public/assets/images/logo/reliable collag.svg';
+import Logo from '../../../public/assets/images/logo/favicon.svg';
 import Image from 'next/image';
 interface MainFooterProps {
     children?: ReactNode;
@@ -22,8 +22,7 @@ const MainFooter = ({ children }: MainFooterProps) => {
                                                 <Image src={Logo} alt="image" priority />
                                             </Link>
                                         </div>
-                                        <p className="bd-footer-widget-description">Education focused website or template is an
-                                            essential part that provides visitors with insights into the program. </p>
+                                        <p className="bd-footer-widget-description">Reliable College </p>
                                         <div className="bd-footer-widget-contact-info">
                                             <div className="bd-footer-widget-contact-item">
                                                 <span>Phone:</span>

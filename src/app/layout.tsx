@@ -26,8 +26,8 @@ const bigShoulders = Big_Shoulders_Display({
 });
 
 export const metadata: Metadata = {
-  title: "iStudy - Education & Online Courses React NextJs Template",
-  description: "iStudy is a versatile React NextJs template for educational institutions and online learning platforms, featuring multiple homepage layouts, instructor/student dashboards, and tailored designs for schools, universities, language centers, Quran learning, and more.",
+  title: "Reliable College",
+  description: "Reliable",
 };
 
 export default function RootLayout({

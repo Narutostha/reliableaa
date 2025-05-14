@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import LogoImg from '../../../public/assets/images/logo/reliable collag.svg';
+import LogoImg from '../../../public/assets/images/logo/logo.jpg';
 import SidebarCart from '@/components/common/sidebar-cart/SidebarCart';
 
 import SidebarMenu from '../sidebar/SidebarMenu';

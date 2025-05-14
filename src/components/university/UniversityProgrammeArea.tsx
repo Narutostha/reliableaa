@@ -24,14 +24,14 @@ const programData: ProgramItem[] = [
     {
         id: 1,
         program: 'undergraduate',
-        type: 'Full-time',
-        title: "BBA",
-        description: "Learn programming, algorithms, and computational theory to drive the future of technology.",
+        type: ' ',
+        title: "Bachelor of Business Administration",
+description: "Develop essential business acumen and leadership skills through a comprehensive curriculum covering management, marketing, finance, and entrepreneurship for success in today's dynamic business environment.",
         duration: "4 Years",
         credits: "12 Credits",
         // Array of images for gallery display
         images: [
-            "/assets/images/course/bba.jpg",
+            "/assets/images/course/course-thumb-4.webp",
         ],
         shapeImage: "/assets/images/course/course-shape-1.webp",
         textImage: "/assets/images/course/csc.webp",
@@ -39,9 +39,9 @@ const programData: ProgramItem[] = [
     {
         id: 4,
         program: 'graduate',
-        type: 'Full-time',
-        title: "MBA",
-        description: "Master in Business Administrator",
+        type: '',
+        title: "Master of Business Administration",
+description: "Advance your career with our rigorous MBA program designed for professionals seeking to develop strategic leadership capabilities, analytical skills, and global business perspectives to excel in executive positions.",
         duration: "2 Years",
         credits: "16 Credits",
         // Array of images for gallery display

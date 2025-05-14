@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 import bgPrevImg from '../../public/assets/images/bg/privew-thumb.webp';
 import bgSignatureImg from '../../public/assets/images/bg/signature.webp';
-import { bloodGroup, countryItems, maritalStatusItems, nationalityItems, programSubject, religionItems, semesterItems } from '@/data/dropdown-data';
+import { bloodGroup, countryItems, maritalStatusItems, nationalityItems, programSubject, religionItems } from '@/data/dropdown-data';
 import { Gender } from '@/data/nice-select-data';
 import NiceSelect from '@/components/elements/nice-select/NiceSelect';
 
@@ -36,19 +36,9 @@ const ApplicationForm = () => {
                     </div>
                     <div className="col-xxl-4 col-xl-4 col-lg-4">
                         <div className="form-input-box">
-                            <div className="form-input-title">
-                                <label htmlFor="semesterSelect" data-error="wrong" data-success="right">Semester <span>*</span></label>
-                            </div>
+                            
                             <div className="form-input">
-                                <div className="form-select-option">
-                                    <NiceSelect
-                                        options={semesterItems}
-                                        defaultCurrent={0}
-                                        onChange={selectHandler}
-                                        filterIcon={false}
-                                        name=""
-                                        className="course-orderby"
-                                    />
+                                
                                 </div>
                             </div>
                         </div>
@@ -297,7 +287,7 @@ const ApplicationForm = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                
             </form>
         </>
     );
