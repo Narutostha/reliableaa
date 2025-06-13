@@ -12,12 +12,11 @@ const PostboxAuthor = () => {
                 </div>
                 <div className="bd-postbox-author-info">
                     <div className="mb--5">
-                        <h6 className="name underline"><Link href="#">Sarah Collins</Link></h6>
-                        <span className="designation">Senior Education Consultant</span>
+                        <h6 className="name underline"><Link href="#">Ms. Rekha Sharma</Link></h6>
+                        <span className="designation">Program Coordinator, BBA & MBA – Reliable College</span>
                     </div>
                     <div className="bd-postbox-author-bio mb-15">
-                        <p>Sarah is an EdTech Consultant with over 8 years of experience in integrating
-                            technology into education to enhance learning experiences.</p>
+                        <p>Ms. Sharma has been guiding future business leaders at Reliable College for over 10 years. She specializes in strategic management and student mentoring in Nepal’s competitive education landscape.</p>
                     </div>
                     <div className="theme-social circle">
                         <ul className="social-icon-list">
@@ -25,7 +24,6 @@ const PostboxAuthor = () => {
                             <li><Link href="https://x.com/" target="_blank"><i className="fa-brands fa-x-twitter"></i></Link></li>
                             <li><Link href="https://www.linkedin.com/feed/" target="_blank"><i className="fa-brands fa-linkedin-in"></i></Link></li>
                             <li><Link href="https://www.instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></Link></li>
-                            <li><Link href="https://www.behance.net/" target="_blank"><i className="fa-brands fa-behance"></i></Link></li>
                         </ul>
                     </div>
                 </div>

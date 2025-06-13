@@ -44,34 +44,36 @@ const Comment: React.FC<CommentProps> = ({ avatar, name, date, text, replies = [
 );
 
 const PostboxComment: React.FC = () => {
-    const comments: CommentProps[] = [
-        {
-            avatar: avatarImg,
-            name: "James Smith",
-            date: "July 14, 2024",
-            text: "This course exceeded my expectations! The instructor's knowledge and delivery were excellent. Highly recommend for anyone interested in data science.",
-            replies: [
-                {
-                    avatar: avatarTwoImg,
-                    name: "Michael Brown",
-                    date: "July 14, 2024",
-                    text: "The practical approach of this course is what made it so engaging. The instructor's real-world examples were spot on!"
-                }
-            ]
-        },
-        {
-            avatar: avatarThreeImg,
-            name: "Michael Brown",
-            date: "July 14, 2024",
-            text: "Great course for beginners and experts alike! The instructor breaks down complex topics very well."
-        },
-        {
-            avatar: avatarFourImg,
-            name: "Emily Johnson",
-            date: "July 14, 2024",
-            text: "Excellent structure and well-paced! The instructor has a great teaching style that makes learning fun."
-        }
-    ];
+   // inside `const comments: CommentProps[] = [...]`
+const comments: CommentProps[] = [
+    {
+        avatar: avatarImg,
+        name: "Anish Thapa",
+        date: "May 10, 2025",
+        text: "The BBA program at Reliable College gave me real-world business skills. I feel well-prepared for the corporate world.",
+        replies: [
+            {
+                avatar: avatarTwoImg,
+                name: "Manish Shrestha",
+                date: "May 11, 2025",
+                text: "Agreed! The internship opportunities were especially valuable during my MBA journey."
+            }
+        ]
+    },
+    {
+        avatar: avatarThreeImg,
+        name: "Shristi Koirala",
+        date: "May 8, 2025",
+        text: "I loved the case-based teaching method. The MBA faculty at Reliable are highly supportive and industry-focused."
+    },
+    {
+        avatar: avatarFourImg,
+        name: "Pravin KC",
+        date: "May 6, 2025",
+        text: "From entrepreneurship bootcamps to research projects, Reliable College offers the perfect BBA-MBA pipeline in Nepal."
+    }
+];
+
 
     return (
         <div className="bd-postbox-comment">

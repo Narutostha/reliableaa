@@ -2,7 +2,6 @@ import React from 'react';
 import eventThumb from '../../../../public/assets/images/event/event-thumb-06.webp';
 import shapeStar from '../../../../public/assets/images/shape/star.webp';
 import Image from 'next/image';
-import Link from 'next/link';
 import { eventData } from '@/data/events-data';
 
 const UniversityEventSectionCommon = () => {
@@ -32,7 +31,10 @@ const UniversityEventSectionCommon = () => {
                                                 <li> <i className="fa-regular fa-location-dot"></i> {event.location}</li>
                                                 <li> <i className="fa-regular fa-clock"></i> {event.time} </li>
                                             </ul>
-                                            <h5 className="bd-event-title underline"><Link href={`/event/event-details/${event.id}`}>{event.title}</Link></h5>
+                                            <h5 className="bd-event-title underline">
+  <span>{event.title}</span>
+</h5>
+
                                         </div>
                                     </div>
                                 ))}

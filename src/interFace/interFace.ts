@@ -125,51 +125,15 @@ export interface IFeature {
 // Define an interface for the Course data 
 export interface ICourse {
   id: number;
-  badge?: string;
-  badgeClass?: string;
+  courseName: string;
   image: StaticImageData;
-  imageClassName?: string;
-  instructorImage?: StaticImageData;
-  instructorImageClassName?: string;
-  courseTextContent?: boolean;
   title: string;
-  courseTitleClass?: string;
-  FontSizeClass?: string;
-  spacingClass?: string;
-  smallText?: string;
-  smallTextTwo?: string;
-  courseTag?: string;
-  lessons?: number;
-  students?: number;
-  courseName?: string;
   courseDescription: string;
-  rating: number;
-  price?: number;
-  discount?: number;
-  certificateBadge?: string;
-  advancedTitle?: string;
-  level?: string;
-  details?: string;
-  courseList?: string[];
-  ratingNum?: number;
-  courseTextContentStyle?: boolean;
-  latterUppercase?: boolean;
-  totalCourse?: number;
-  instructorName?: string;
-  hoursTime?: number;
-  type?: string;
-  brands?: StaticImageData[];
-  buttonText?: string;
-  courseTagTwo?: string;
-  avatarImg?: StaticImageData
-  category?: string[]
-  shape?: StaticImageData;
-  badgeClassTwo?: string;
-  smallTextThree?: string;
-  courseBgClass?: string;
-  FontSizeClassTwo?: string;
-  quantity?:number;
+  creditHours: number;
+  durationYears: number;
 }
+
+
 // Define an interface for the course props 
 export interface ICourseProps {
   course: ICourse;

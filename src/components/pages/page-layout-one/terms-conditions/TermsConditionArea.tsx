@@ -11,7 +11,7 @@ const TermsConditionArea = () => {
                             <div className="bd-policy-wrapper p-relative z-index-1">
                                 <div className="bd-policy-item">
                                     <h4 className="bd-policy-title">Introduction</h4>
-                                    <p>Welcome to iStudy. These Terms and Conditions govern your use of our platform. By accessing
+                                    <p>Welcome to Reliable College. These Terms and Conditions govern your use of our platform. By accessing
                                         or using our website, you agree to be bound by these Terms and Conditions and our Privacy
                                         Policy. If you do not agree to these Terms and Conditions, please do not use our platform.
                                     </p>
@@ -32,7 +32,7 @@ const TermsConditionArea = () => {
                                 <div className="bd-policy-item">
                                     <h4 className="bd-policy-title">Intellectual Property</h4>
                                     <p>All content on our platform, including but not limited to text, graphics, logos, images, and
-                                        software, is the property of iStudy or its content suppliers and is protected by
+                                        software, is the property of Reliable College or its content suppliers and is protected by
                                         copyright laws.</p>
                                 </div>
 
@@ -49,7 +49,7 @@ const TermsConditionArea = () => {
 
                                 <div className="bd-policy-item">
                                     <h4 className="bd-policy-title">Limitation of Liability</h4>
-                                    <p>In no event shall iStudy, nor its directors, employees, partners, agents, suppliers, or
+                                    <p>In no event shall Reliable College, nor its directors, employees, partners, agents, suppliers, or
                                         affiliates, be liable for any indirect, incidental, special, consequential, or punitive
                                         damages, including without limitation, loss of profits, data, use, goodwill, or other
                                         intangible losses, resulting from (i) your access to or use of or inability to access or use
@@ -81,13 +81,11 @@ const TermsConditionArea = () => {
                                         contact us at</p>
 
                                     <ul>
-                                        <li>Email: <span><Link href="mailto:contact@istudy.com">contact@istudy.com</Link></span></li>
+                                        <li>Email: <span><Link href="mailto:contact@Reliable College.com">contact@Reliable College.com</Link></span></li>
                                     </ul>
 
                                     <div className="bd-policy-address">
-                                        <p className="mb-0">
-                                            <Link href="#">1234 Education Lane, <br/> Knowledge City, 56789, United State</Link>
-                                        </p>
+                                        
                                     </div>
                                 </div>
                             </div>

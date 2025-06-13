@@ -23,7 +23,7 @@ const main_menu_data: MenuItem[] = [
     submenus: [
       {
         title: "Introduction",
-        link: "/introduction",
+        link: "/about-university",
         pluseIncon: false,
       },
       {
@@ -50,7 +50,7 @@ const main_menu_data: MenuItem[] = [
     children: true,
     title: "Our Programs",
     pluseIncon: true,
-    link: "/courses-list-three",
+    link: "/courses-grid-two",
     submenus: [
       {
         title: "BBA",

@@ -13,7 +13,7 @@ const UniversityWhyChooseAreaCommon = () => {
                     <div className="col-xl-6">
                         <div className="bd-section-wrapper section-title-space text-center">
                             <span className="bd-section-subtitle">Why Choose Us</span>
-                            <h2 className="bd-section-title mb-20">Why Choose <span className="down-mark-line">iStudy</span>
+                            <h2 className="bd-section-title mb-20">Why Choose <span className="down-mark-line">Reliable</span>
                             </h2>
                         </div>
                     </div>

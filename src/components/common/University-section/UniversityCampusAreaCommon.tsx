@@ -54,18 +54,16 @@ const UniversityCampusAreaCommon = () => {
                                 <div className="bd-campus-wrapper style-one">
                                     <div className="bd-campus-item">
                                         <div className="bd-campus-thumb">
-                                            <Link href="/campus">
+                                            <Link href="">
                                                 <Image src={item.image} priority style={{ width: "100%", height: "auto" }} alt={item.title} />
                                             </Link>
                                         </div>
                                         <div className="bd-campus-content">
                                             <div className="bd-campus-info">
                                                 <h5 className="bd-campus-title underline">
-                                                    <Link href="/campus">{item.title}</Link>
+                                                    <Link href="">{item.title}</Link>
                                                 </h5>
-                                                <div className="bd-campus-btn underline">
-                                                    <Link href="/campus">Read More</Link>
-                                                </div>
+                                                
                                             </div>
                                             <div className="bd-campus-icon">
                                                 <item.SvgComponent />

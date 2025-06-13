@@ -9,7 +9,7 @@ const SchoolingWhyChooseAreaCommon = () => {
                     <div className="row justify-content-center">
                         <div className="col-xl-6">
                             <div className="bd-section-wrapper section-title-space text-center">
-                                <span className="bd-section-subtitle">Why iStudy?</span>
+                                <span className="bd-section-subtitle">Why Reliable College?</span>
                                 <h2 className="bd-section-title mb-20">Explore Our Unique Offerings</h2>
                             </div>
                         </div>

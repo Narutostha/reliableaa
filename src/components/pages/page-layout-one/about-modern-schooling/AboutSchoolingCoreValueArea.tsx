@@ -26,7 +26,7 @@ export const coreValuesData: CoreValue[] = [
     {
         icon: textBookIcon,
         title: "Our Educational Philosophy",
-        description: "At <strong>iStudy</strong>, we believe in a student-centered approach that nurtures individual strengths and fosters a passion for lifelong learning. Our philosophy centers on creating an engaging, supportive, and inclusive environment where every student has the opportunity to excel and contribute meaningfully to the world."
+        description: "At <strong>Reliable College</strong>, we believe in a student-centered approach that nurtures individual strengths and fosters a passion for lifelong learning. Our philosophy centers on creating an engaging, supportive, and inclusive environment where every student has the opportunity to excel and contribute meaningfully to the world."
     }
 ];
 
@@ -40,7 +40,7 @@ const AboutSchoolingCoreValueArea = () => {
                         <div className="col-xl-6">
                             <div className="bd-section-wrapper section-title-space sidebar-sticky">
                                 <h2 className="bd-section-title white-text mb-20">Core Values & Philosophy</h2>
-                                <p className="bd-section-paragraph white-text">The Principles That Drive Our Educational Approach at iStudy</p>
+                                <p className="bd-section-paragraph white-text">The Principles That Drive Our Educational Approach at Reliable College</p>
                             </div>
                         </div>
                         <div className="col-xl-5">

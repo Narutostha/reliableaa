@@ -30,54 +30,57 @@ const testimonialData: ITestimonial[] = [
     },
     //modern schooling testimonial data
     {
-        id: 4,
-        rating: 5,
-        content: "Modern Schooling at iStudy has transformed my child's learning experience. The interactive classes and expert instructors make education truly engaging.",
-        name: "Sophia Carter",
-        avatar: avatar1,
-        designation: "Parent"
-    },
-    {
-        id: 5,
-        rating: 5,
-        content: "iStudy's modern schooling approach ensures that students are prepared for the future. I love the balance between academics and extracurricular activities.",
-        name: "James Taylor",
-        avatar: avatar2,
-        designation: "Teacher"
-    },
-    {
-        id: 6,
-        rating: 5,
-        content: "The state-of-the-art facilities and digital tools have made learning seamless and enjoyable. It's the best decision we've made for our child's education.",
-        name: "Emma Johnson",
-        avatar: avatar3,
-        designation: "Parent"
-    },
+    id: 4,
+    rating: 5,
+    content: "The BBA program at Reliable College has transformed my son's academic journey. The interactive classes and experienced instructors have made learning both enjoyable and effective.",
+    name: "Saraswati Koirala",
+    avatar: avatar1,
+    designation: "Parent"
+},
+{
+    id: 5,
+    rating: 5,
+    content: "The modern teaching methods and industry exposure in the MBA course have truly prepared me for the future. Reliable College offers a great balance between academics and practical learning.",
+    name: "Bibek Sharma",
+    avatar: avatar2,
+    designation: "MBA Student"
+},
+{
+    id: 6,
+    rating: 5,
+    content: "The state-of-the-art infrastructure and digital tools at Reliable College have made learning seamless and engaging. Choosing BBA here has been one of the best decisions of my academic life.",
+    name: "Rachana Thapa",
+    avatar: avatar3,
+    designation: "BBA Student"
+},
+
     //University testimonial data
-    {
-        id: 7,
-        rating: 5,
-        content: "iStudy University has truly shaped my academic journey. The faculty's dedication to student success and the interactive learning environment are unparalleled. It’s been an amazing platform to build my skills and confidence for the future.",
-        name: "Sophia Ali",
-        avatar: avatar1,
-        designation: "Computer Science Graduate"
-    },
-    {
-        id: 8,
-        rating: 5,
-        content: "My time at iStudy University has been life-changing. The courses are well-structured, and the resources provided are top-notch. I’ve gained both practical knowledge and lifelong friendships here.",
-        name: "David Chowdhury",
-        avatar: avatar2,
-        designation: "Business Administration Student"
-    },
-    {
-        id: 9,
-        rating: 5,
-        content: "Studying at iStudy University has been an incredible journey. The personalized attention from professors and access to state-of-the-art facilities have allowed me to excel in my studies and prepare for a successful career.",
-        name: "Ayesha Khan",
-        avatar: avatar3,
-        designation: "Mechanical Engineering Graduate"
-    },
+   {
+    id: 4,
+    rating: 5,
+    content: "Studying BBA at Reliable College has been a life-changing experience for me. The interactive learning environment, supportive faculty, and focus on practical knowledge have helped me grow both personally and professionally.",
+    name: "Saraswati Koirala",
+    avatar: avatar1,
+    designation: "BBA Student"
+},
+
+{
+    id: 5,
+    rating: 5,
+    content: "The modern teaching methods and industry exposure in the MBA course have truly prepared me for the future. Reliable College offers a great balance between academics and practical learning.",
+    name: "Bibek Sharma",
+    avatar: avatar2,
+    designation: "MBA Student"
+},
+{
+    id: 6,
+    rating: 5,
+    content: "The state-of-the-art infrastructure and digital tools at Reliable College have made learning seamless and engaging. Choosing BBA here has been one of the best decisions of my academic life.",
+    name: "Rachana Thapa",
+    avatar: avatar3,
+    designation: "BBA Student"
+},
+
     //Quran learning testimonial data
     {
         id: 10,

@@ -52,25 +52,25 @@ const counterData: ICounter[] = [
     // modern schooling page counter data start
     {
         id: 9,
-        counterNum: 1200,
-        suffix: "+",
+        counterNum: 2,
+        suffix: "",
         counterText: "Programs & Courses"
     },
     {
         id: 10,
-        counterNum: 3500,
+        counterNum: 500,
         suffix: "+",
         counterText: "Active Students"
     },
     {
         id: 11,
-        counterNum: 150,
+        counterNum: 20,
         suffix: "+",
         counterText: "Qualified Faculty"
     },
     {
         id: 12,
-        counterNum: 50,
+        counterNum: 5,
         suffix: "M+",
         counterText: "Global Research Awards"
     },

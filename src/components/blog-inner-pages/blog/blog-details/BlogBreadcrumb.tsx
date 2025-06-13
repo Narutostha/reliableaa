@@ -1,4 +1,4 @@
-import Link from 'next/link';
+    import Link from 'next/link';
 import React from 'react';
 import BlogDetailsBanner from '../../../../../public/assets/images/blog/blog-details-banner.webp';
 import avatarImg from '../../../../../public/assets/images/avatar/avatar.webp';

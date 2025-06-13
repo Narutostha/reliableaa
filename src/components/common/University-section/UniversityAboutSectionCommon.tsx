@@ -7,12 +7,9 @@ import bookShape from '../../../../public/assets/images/shape/book-2.webp';
 import thumbShapeTwo from '../../../../public/assets/images/about/500x5000.jpg';
 import thumbShapeThree from '../../../../public/assets/images/about/500x5000.jpg';
 import userImage from '../../../../public/assets/images/user/user-01.webp';
-import Link from 'next/link';
 import CountUpContent from '../counter/CountUpContent';
-import { usePathname } from 'next/navigation';
 
 const UniversityAboutSectionCommon = () => {
-    const pathName = usePathname();
     return (
         <section className="bd-about-area section-space p-relative">
             <div className="container">
@@ -75,14 +72,7 @@ const UniversityAboutSectionCommon = () => {
                                         <li><i className="fa-regular fa-check"></i>No Credit Card Required</li>
                                     </ul>
                                 </div>
-                                <div className="bd-about-btn">
-                                    {
-                                        pathName == "/university" ? 
-                                        <Link className="bd-btn btn-primary" href="/about-university">More Details</Link>
-                                        : <Link className="bd-btn btn-outline-primary" href="/about-university">More Details</Link>
-                                    }
-                                    
-                                </div>
+                               
                             </div>
                         </div>
                     </div>

@@ -18,7 +18,7 @@ const AboutWhyChooseUs = () => {
                     <div className="row gy-30 align-items-center justify-content-between">
                         <div className="col-xxl-5 col-xl-6 col-lg-6">
                             <div className="bd-section-title-wrapper">
-                                <span className="bd-section-subtitle">Why Choose iStudy</span>
+                                <span className="bd-section-subtitle">Why Choose Reliable</span>
                                 <h2 className="bd-section-title mb-20">Why Students Choose Us for Their Academic Success</h2>
                                 <p className="bd-section-paragraph">At iStudy, we empower students to achieve their
                                     academic success through flexible online courses, expert-led lessons, and hands-on

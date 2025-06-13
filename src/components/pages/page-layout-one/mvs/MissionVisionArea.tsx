@@ -25,15 +25,15 @@ const missionVisionImgData: MissionVisionImgData[] = [
 const missionVisionData: MissionVisionData[] = [
     {
         title: "Our Vision",
-        description: "iStudy will be and remain a center of excellence in higher education. It will gain recognition, nationally and globally and will attract students, faculty, and staff from all parts of the world.",
+        description: "Reliable College will be and remain a center of excellence in higher education. It will gain recognition, nationally and globally and will attract students, faculty, and staff from all parts of the world.",
     },
     {
         title: "Our Mission",
-        description: "iStudy will be and remain a center of excellence in higher education. It will gain recognition, nationally and globally and will attract students, faculty, and staff from all parts of the world.",
+        description: "Reliable College will be and remain a center of excellence in higher education. It will gain recognition, nationally and globally and will attract students, faculty, and staff from all parts of the world.",
     },
     {
         title: "Our Strategy",
-        description: "iStudy will be and remain a center of excellence in higher education. It will gain recognition, nationally and globally and will attract students, faculty, and staff from all parts of the world.",
+        description: "Reliable College will be and remain a center of excellence in higher education. It will gain recognition, nationally and globally and will attract students, faculty, and staff from all parts of the world.",
     },
 ];
 

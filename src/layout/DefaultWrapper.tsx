@@ -3,18 +3,13 @@ import React, { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import BacktoTop from "@/utils/BacktoTop";
 import FooterTwo from "./footer/FooterTwo";
-import HeaderTwo from "./header/HeaderTwo";
 import HeaderOne from "./header/HeaderOne";
 import FooterThree from "./footer/FooterThree";
 import FooterOne from "./footer/FooterOne";
-import HeaderFour from "./header/HeaderFour";
 import FooterFive from "./footer/FooterFive";
 import HeaderFive from "./header/HeaderFive";
 import KindergartentFooter from "./footer/KindergartentFooter";
-import KindergartenHeader from "./header/KindergartenHeader";
-import QuranLearningHeader from "./header/QuranLearningHeader";
 import QuranLearningFooter from "./footer/QuranLearningFooter";
-import LanguageAcademyHeader from "./header/LanguageAcademyHeader";
 import Preloader from "@/components/common/preloader/Preloader";
 import WOW from 'wow.js';
 
@@ -57,11 +52,11 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
   const headerMap: Record<string, React.ReactNode> = {
     "/": <HeaderOne />,
     "/university": <HeaderOne />,
-    "/online-course": <HeaderTwo />,
-    "/kindergarten": <KindergartenHeader />,
-    "/quran-learning": <QuranLearningHeader />,
-    "/language-academy": <LanguageAcademyHeader />,
-    "/book-store": <HeaderFour />,
+    "/online-course": <HeaderOne />,
+    "/kindergarten": <HeaderOne />,
+    "/quran-learning": <HeaderOne />,
+    "/language-academy": <HeaderOne />,
+    "/book-store": <HeaderOne />,
   };
 
   const footerMap: Record<string, React.ReactNode> = {

@@ -11,7 +11,7 @@ const PolicyArea = () => {
                             <div className="bd-policy-wrapper p-relative z-index-1">
                                 <div className="bd-policy-item">
                                     <h4 className="bd-policy-title">Introduction</h4>
-                                    <p>Thank you for visiting iStudy. This Privacy Policy outlines how we collect, use, disclose,
+                                    <p>Thank you for visiting Reliable College. This Privacy Policy outlines how we collect, use, disclose,
                                         and manage your personal information. By using our platform, you agree to the terms of this
                                         Privacy Policy.</p>
                                 </div>
@@ -79,13 +79,11 @@ const PolicyArea = () => {
                                         us at:</p>
 
                                     <ul>
-                                        <li>Email: <span><Link href="mailto:contact@istudy.com">contact@istudy.com</Link></span></li>
+                                        <li>Email: <span><Link href="mailto:contact@Reliable.edu.np">contact@Reliable.edu.np</Link></span></li>
                                     </ul>
 
                                     <div className="bd-policy-address">
-                                        <p className="mb-0">
-                                            <Link href="#">1234 Education Lane, <br /> Knowledge City, 56789, United State</Link>
-                                        </p>
+                                        
                                     </div>
                                 </div>
                             </div>

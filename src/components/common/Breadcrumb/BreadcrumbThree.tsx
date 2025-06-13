@@ -1,4 +1,4 @@
-import Link from 'next/link';
+
 import React from 'react';
 import { StaticImageData } from 'next/image';
 
@@ -8,10 +8,9 @@ interface BreadcrumbThreeProps {
     description: string;
     link: string;
     bgImage: StaticImageData;
-    buttonText: string;
 }
 
-const BreadcrumbThree: React.FC<BreadcrumbThreeProps> = ({ subtitle, title, description, link, bgImage, buttonText }) => {
+const BreadcrumbThree: React.FC<BreadcrumbThreeProps> = ({ subtitle, title, description, bgImage }) => {
     return (
         <section 
             className="bd-school-breadcrumb-area bd-school-breadcrumb-bg" 
@@ -24,7 +23,6 @@ const BreadcrumbThree: React.FC<BreadcrumbThreeProps> = ({ subtitle, title, desc
                             <span className="bd-school-breadcrumb-subtitle">{subtitle}</span>
                             <h1 className="bd-school-breadcrumb-title white-text mb-15">{title}</h1>
                             <p className="bd-school-breadcrumb-desc">{description}</p>
-                            <Link href={link} className="bd-btn btn-primary">{buttonText}</Link>
                         </div>
                     </div>
                 </div>

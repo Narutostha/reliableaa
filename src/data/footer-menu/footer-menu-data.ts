@@ -43,11 +43,10 @@ export const UniversityFooterMenuLinks = [
     spacingClass: 'footer-1-col-2',
     links: [
       { name: 'About Us', href: '/about-university' },
-      { name: 'Our Programs', href: '/courses-grid-right' },
+      { name: 'Our Programs', href: '/courses-grid-two' },
       { name: 'Events', href: '/event' },
       { name: 'Faculty Members', href: '/faculty-members' },
-      { name: 'Faculty Details', href: '/instructor/instructor-details' },
-      { name: 'Admission', href: '/apply-online' },
+      { name: 'Admission', href: '/contact-us' },
     ],
   },
   {
@@ -59,7 +58,6 @@ export const UniversityFooterMenuLinks = [
       { name: 'FAQ’s', href: '/faq' },
       { name: 'Gallery', href: '/gallery' },
       { name: 'Vision & Mission', href: '/mvs' },
-      { name: 'Sign In', href: '/sign-in' },
     ],
   },
 ];

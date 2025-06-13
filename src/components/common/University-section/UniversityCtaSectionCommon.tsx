@@ -45,7 +45,7 @@ const UniversityCtaSectionCommon = () => {
                                     <div className="bd-cta-btn d-flex flex-wrap gap-30 align-items-center">
                                         <Link className="bd-btn btn-outline-border-secondary" href="/apply-online">Start
                                             Your Journey</Link>
-                                        <Link className="bd-btn btn-outline-border-white" href="/contact-us">Contact Us</Link>
+                                        
                                     </div>
                                 </div>
                             </div>

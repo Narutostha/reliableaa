@@ -5,7 +5,6 @@ import UniversityCounterSection from './UniversityCounterSection';
 import UniversityProgrammeArea from './UniversityProgrammeArea';
 import UniversityBrandSection from './UniversityBrandSection';
 import UniversityTestimonialArea from '../sliders/testimonial/UniversityTestimonialArea';
-import UniversityVideoSection from './UniversityVideoSection';
 import UniversityBlogSection from './UniversityBlogSection';
 import UniversityAboutSectionCommon from '../common/University-section/UniversityAboutSectionCommon';
 import UniversityWhyChooseAreaCommon from '../common/University-section/UniversityWhyChooseAreaCommon';
@@ -29,7 +28,6 @@ const UniversityMain = () => {
             <UniversityBrandSection />
             <UniversityCampusAreaCommon />
             <UniversityTestimonialArea />
-            <UniversityVideoSection />
             <UniversityBlogSection />
             <UniversityCtaSectionCommon />
 
