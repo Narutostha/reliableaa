@@ -28,7 +28,7 @@ const ProgramDetailsMain = ({ programId }: { programId: number }) => {
             return (
                 <div className="bd-program-specific-content mb-40">
                     <h3 className="bd-course-details-content-title">BBA Program Overview</h3>
-                    <p>Our Bachelor of Business Administration program prepares students for successful careers in various business sectors. Through a comprehensive curriculum, you'll develop critical thinking, leadership skills, and business acumen needed in today's competitive marketplace.</p>
+                    <p>Our Bachelor of Business Administration program prepares students for successful careers in various business sectors. Through a comprehensive curriculum, you ll develop critical thinking, leadership skills, and business acumen needed in today s competitive marketplace.</p>
 
                     <div className="bd-program-highlights mt-30">
                         <h4>Program Highlights</h4>

@@ -27,7 +27,7 @@ const PostboxContent = () => {
   <h3 className="bd-details-content-title">Key Benefits</h3>
   <div className="bd-post-details-list mb-30">
     <ul>
-      <li>Industry-focused curriculum for Nepal’s evolving business needs</li>
+      <li>Industry-focused curriculum for Nepal s evolving business needs</li>
       <li>Internship and placement support with leading Nepali companies</li>
       <li>Scholarships available for academic and leadership excellence</li>
       <li>Access to modern classrooms, digital tools, and business labs</li>
@@ -36,7 +36,7 @@ const PostboxContent = () => {
   </div>
 
   <p className="bd-postbox-desc">
-    Whether you’re starting your business journey or seeking executive advancement, Reliable College provides the academic excellence and practical skills to thrive.
+    Whether you re starting your business journey or seeking executive advancement, Reliable College provides the academic excellence and practical skills to thrive.
   </p>
 </div>
 

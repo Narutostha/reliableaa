@@ -119,7 +119,7 @@ export default function MBAPage() {
                 <div className="space-y-6">
                   <div>
                     <p className="text-lg text-gray-700 leading-relaxed">
-                      <span className="text-blue-600 font-semibold">Padmashree College's</span>{' '}
+                      <span className="text-blue-600 font-semibold">Padmashree College s</span>{' '}
                       <span className="font-semibold">Master of Business Administration (MBA)</span>{' '}
                       <span className="text-blue-600 font-semibold">program is your gateway to</span>{' '}
                       <span className="text-blue-600 font-semibold">advanced business leadership.</span>
@@ -129,7 +129,7 @@ export default function MBAPage() {
                   <div className="text-gray-600 leading-relaxed space-y-4">
                     <p>
                       Are you ready to advance your career and take on senior leadership roles in the business world? 
-                      Padmashree College's Master of Business Administration (MBA) program is designed for ambitious 
+                      Padmashree College s Master of Business Administration (MBA) program is designed for ambitious 
                       professionals who want to develop advanced management skills and strategic thinking capabilities. 
                       Affiliated with Tribhuvan University, our MBA program offers a comprehensive curriculum that 
                       prepares you for executive positions in various industries.
@@ -170,7 +170,7 @@ export default function MBAPage() {
                       
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-2">Eligibility</h4>
-                        <p className="text-gray-600">Bachelor's degree with minimum 50% marks</p>
+                        <p className="text-gray-600">Bachelor degree with minimum 50% marks</p>
                       </div>
                       
                       <div>

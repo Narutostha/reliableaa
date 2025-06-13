@@ -119,17 +119,17 @@ export default function BBAPage() {
                 <div className="space-y-6">
                   <div>
                     <p className="text-lg text-gray-700 leading-relaxed">
-                      <span className="text-blue-600 font-semibold">Padmashree College's</span>{' '}
+                      <span className="text-blue-600 font-semibold">Padmashree College s</span>{' '}
                       <span className="font-semibold">Bachelor of Business Administration (BBA)</span>{' '}
                       <span className="text-blue-600 font-semibold">program is your entry point to</span>{' '}
-                      <span className="text-blue-600 font-semibold">Nepal's best business education.</span>
+                      <span className="text-blue-600 font-semibold">Nepals best business education.</span>
                     </p>
                   </div>
 
                   <div className="text-gray-600 leading-relaxed space-y-4">
                     <p>
                       Are you driven by a passion for business and a desire to excel in the dynamic world of 
-                      management and entrepreneurship? Look no further than Padmashree College, one of Nepal's 
+                      management and entrepreneurship? Look no further than Padmashree College, one of Nepal 
                       finest institutions offering the Bachelor of Business Administration (BBA) program. 
                       Affiliated with Tribhuvan University, our BBA program is meticulously designed to equip 
                       you with the skills and knowledge essential for a thriving career in business.
@@ -138,8 +138,8 @@ export default function BBAPage() {
                     <p>
                       Our comprehensive curriculum covers all aspects of modern business including finance, 
                       marketing, human resources, operations management, and strategic planning. With experienced 
-                      faculty members who bring real-world expertise to the classroom, you'll gain both theoretical 
-                      knowledge and practical insights that prepare you for leadership roles in today's competitive 
+                      faculty members who bring real-world expertise to the classroom, you ll gain both theoretical 
+                      knowledge and practical insights that prepare you for leadership roles in today s competitive 
                       business environment.
                     </p>
 
