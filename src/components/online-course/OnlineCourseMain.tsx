@@ -2,7 +2,6 @@ import React from 'react';
 import BannerSectionOne from './BannerSectionOne';
 import CourseFeatureArea from './CourseFeatureArea';
 import CourseCatagory from './CourseCatagory';
-import OnlineCourseArea from './OnlineCourseArea';
 import CoursePricingPlanArea from './CoursePricingPlanArea';
 import TestimonialSliderOne from '../sliders/testimonial/TestimonialSliderOne';
 import CoursePartnerArea from './CoursePartnerArea';
@@ -19,7 +18,6 @@ const OnlineCourseMain = () => {
             <CourseFeatureArea />
             <CourseCatagory />
             <CourseAboutArea />
-            <OnlineCourseArea />
             <CoursePricingPlanArea />
             <TestimonialSliderOne />
             <OnlineCourseInstructor />

@@ -3,7 +3,6 @@ import ModernSchoolingBanner from './ModernSchoolingBanner';
 import OverviewArea from './OverviewArea';
 import ModernSchoolingCategory from '../sliders/category/ModernSchoolingCategory';
 import ModernSchoolingAboutUs from './ModernSchoolingAboutUs';
-import ModernSchoolingCourseArea from './ModernSchoolingCourseArea';
 import ModernSchoolingCounter from './ModernSchoolingCounter';
 import ModernSchoolingFaqArea from './ModernSchoolingFaqArea';
 import ModernSchollingTestimonial from '../sliders/testimonial/ModernSchollingTestimonial';
@@ -19,7 +18,6 @@ const ModernSchoolingMain = () => {
             <OverviewArea />
             <ModernSchoolingCategory />
             <ModernSchoolingAboutUs />
-            <ModernSchoolingCourseArea />
             <ModernSchoolingCounter />
             <section className="bd-why-choose-area section-space-top fix">
                 <SchoolingWhyChooseAreaCommon />

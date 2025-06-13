@@ -133,7 +133,6 @@ export interface ICourse {
   durationYears: number;
 }
 
-
 // Define an interface for the course props 
 export interface ICourseProps {
   course: ICourse;

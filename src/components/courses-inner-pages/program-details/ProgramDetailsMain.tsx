@@ -4,7 +4,6 @@ import Breadcrumbs from '@/components/common/Breadcrumb/Breadcrumbs';
 import programData from '@/data/programe-data';
 import React from 'react';
 import CurriculumArea from './CurriculumArea';
-import ProgramSidebarWidget from './ProgramSidebarWidget';
 
 interface ProgramDataWithHighlights {
     id: number;
@@ -94,7 +93,6 @@ const ProgramDetailsMain = ({ programId }: { programId: number }) => {
                             </div>
                         </div>
                         <div className="col-xxl-4 col-xl-4 col-lg-4">
-                            <ProgramSidebarWidget program={program} />
                         </div>
                     </div>
                 </div>

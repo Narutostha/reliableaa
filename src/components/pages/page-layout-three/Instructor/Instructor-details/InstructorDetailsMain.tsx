@@ -5,7 +5,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import InstructorProgress from './InstructorProgress';
 import ExperienceSection from './ExperienceSection';
-import MyCoursesSection from './MyCoursesSection';
 import instructorsData from '@/data/instructor-data';
 
 const InstructorDetailsMain = ({ id }: { id: number }) => {
@@ -79,7 +78,7 @@ const InstructorDetailsMain = ({ id }: { id: number }) => {
                                 <ExperienceSection />
                                 <div className="bd-instructor-feature-box">
                                     <h3 className="bd-instructor-details-title">My Courses</h3>
-                                    <MyCoursesSection />
+                                    
                                 </div>
                             </div>
                         </div>

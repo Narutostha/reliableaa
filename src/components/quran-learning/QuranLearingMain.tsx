@@ -3,7 +3,6 @@ import React from 'react';
 import BannerArea from './BannerArea';
 import QuranLearningCategoriesSlider from '../sliders/category/QuranLearningCategories';
 import QuranLearingAboutArea from './QuranLearingAboutArea';
-import QuranLearningCourse from './QuranLearningCourse';
 import QuranChooseArea from './QuranChooseArea';
 import QuranLarningInstructor from './QuranLarningInstructor';
 import QuranLearningFaq from './QuranLearningFaq';
@@ -19,7 +18,6 @@ const QuranLearingMain = () => {
             <BannerArea />
             <QuranLearningCategoriesSlider/>
             <QuranLearingAboutArea/>
-            <QuranLearningCourse/>
             <QuranChooseArea/>
             <QuranLarningInstructor/>
             <QuranLearningFaq/>
