@@ -1,6 +1,4 @@
 import { ICourse } from "@/interFace/interFace";
-import Image from "next/image";
-import Link from "next/link";
 
 interface ICourseProps {
     adbox: ICourse;
@@ -16,18 +14,10 @@ const AdBoxCard = ({ adbox }: ICourseProps) => {
                 </div>
                 <div className="bd-add-box-bottom">
                     <div className="bd-add-box-brand">
-                        <ul>
-                            {adbox?.brands?.map((brand, index) => (
-                                <li key={index}>
-                                    <Image src={brand} alt="brand" />
-                                </li>
-                            ))}
-                        </ul>
+                        
                     </div>
                     <div className="bd-add-box-btn">
-                        <Link href="#" className="bd-btn btn-outline-primary">
-                            {adbox.buttonText}
-                        </Link>
+                        
                     </div>
                 </div>
             </div>
