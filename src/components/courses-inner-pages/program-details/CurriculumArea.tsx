@@ -3,6 +3,12 @@
 import React, { useState } from 'react';
 import { getCurriculumByProgramId } from "@/data/program/curriculum-data";
 
+interface ProgramDetails {
+  credits: number;
+  duration: string;
+  timing: string;
+}
+
 const CurriculumArea = ({ programId }: { programId: number }) => {
   const [activeAccordion, setActiveAccordion] = useState<number>(0);
   const [activeTab, setActiveTab] = useState<string>('overview');
@@ -12,8 +18,8 @@ const CurriculumArea = ({ programId }: { programId: number }) => {
     setActiveAccordion(index);
   };
 
-  // Dynamic program info
-  const programDetails = {
+  // ✅ Fixed: Index signature allows safe access
+  const programDetails: Record<number, ProgramDetails> = {
     1: { credits: 120, duration: "4 years (8 semesters)", timing: "6:30 AM to 10:30 AM" },
     4: { credits: 63, duration: "2 years (4 semesters)", timing: "6:30 AM to 10:30 AM" }
   };
@@ -33,7 +39,7 @@ const CurriculumArea = ({ programId }: { programId: number }) => {
     { key: 'career', label: 'Career Option' },
   ];
 
-  const content = {
+  const content: Record<number, Record<string, string>> = {
     1: {
       overview: "The BBA program builds a solid foundation in management, marketing, and entrepreneurship...",
       documents: "Transcripts, recommendation letters, photo ID, and application form are required for BBA admission.",
@@ -50,8 +56,8 @@ const CurriculumArea = ({ programId }: { programId: number }) => {
     }
   };
 
-  const getContent = (key: keyof typeof content[1 | 4]) => {
-    return content[programId as 1 | 4]?.[key] || "";
+  const getContent = (key: string) => {
+    return content[programId]?.[key] || "";
   };
 
   return (
@@ -90,7 +96,7 @@ const CurriculumArea = ({ programId }: { programId: number }) => {
       {/* Tab Content */}
       <div className="bg-white p-6 rounded-xl shadow-sm">
         {activeTab !== 'structure' ? (
-          <p className="text-gray-700 leading-relaxed">{getContent(activeTab as keyof typeof content[1 | 4])}</p>
+          <p className="text-gray-700 leading-relaxed">{getContent(activeTab)}</p>
         ) : (
           <>
             <h3 className="bd-course-details-content-title">Curriculum</h3>
@@ -98,7 +104,7 @@ const CurriculumArea = ({ programId }: { programId: number }) => {
               {curriculumData.length} years | {credits} credits | {duration}
             </span>
 
-            {/* Unchanged accordion */}
+            {/* Accordion */}
             <div className="accordion-common-style accordion-transparent accordion-style-one">
               <div className="accordion" id="accordionExampleTwo">
                 {curriculumData.map((yearData, yearIndex) => (
@@ -126,33 +132,32 @@ const CurriculumArea = ({ programId }: { programId: number }) => {
                           <div className="bd-program-curriculum-table table-responsive" key={semIndex}>
                             <h6 className="title">{semester.title}</h6>
                             {semester.notes && <p className="semester-note text-muted mb-3">{semester.notes}</p>}
-                           <table className="table table-bordered text-center">
-  <thead className="table-light">
-    <tr>
-      <th>Sl.</th>
-      <th>Course Code</th>
-      <th>Course Title</th>
-      <th>Total Credits</th>
-    </tr>
-  </thead>
-  <tbody>
-    {semester.courses.map((course, courseIndex) => (
-      <tr key={courseIndex}>
-        <td>{course.sl}</td>
-        <td>{course.code}</td>
-        <td className="text-start">{course.title}</td>
-        <td>{course.totalCredit.toFixed(2)}</td>
-      </tr>
-    ))}
-  </tbody>
-  <tfoot>
-    <tr className="table-light">
-      <th colSpan={3}>Total</th>
-      <td>{semester.total.totalCredit.toFixed(2)}</td>
-    </tr>
-  </tfoot>
-</table>
-
+                            <table className="table table-bordered text-center">
+                              <thead className="table-light">
+                                <tr>
+                                  <th>Sl.</th>
+                                  <th>Course Code</th>
+                                  <th>Course Title</th>
+                                  <th>Total Credits</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {semester.courses.map((course, courseIndex) => (
+                                  <tr key={courseIndex}>
+                                    <td>{course.sl}</td>
+                                    <td>{course.code}</td>
+                                    <td className="text-start">{course.title}</td>
+                                    <td>{course.totalCredit.toFixed(2)}</td>
+                                  </tr>
+                                ))}
+                              </tbody>
+                              <tfoot>
+                                <tr className="table-light">
+                                  <th colSpan={3}>Total</th>
+                                  <td>{semester.total.totalCredit.toFixed(2)}</td>
+                                </tr>
+                              </tfoot>
+                            </table>
                           </div>
                         ))}
                       </div>
