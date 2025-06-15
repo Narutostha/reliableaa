@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import contactThumb from '../../../../../public/assets/images/contact/contact-thumb.webp';
+import contactThumb from '../../../../../public/assets/images/enjoy.jpg';
 import ContactForm from '@/form/ContactForm';
 
 const ContactFormArea = () => {

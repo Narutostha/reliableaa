@@ -5,7 +5,7 @@ import Link from 'next/link';
 import React from 'react';
 //image
 import image1 from '../../../../public/assets/images/campus/campus-life-01.webp';
-import image2 from '../../../../public/assets/images/campus/campus-life-02.webp';
+import image2 from '../../../../public/assets/images/library.png';
 import image3 from '../../../../public/assets/images/campus/campus-life-03.webp';
 import Image from 'next/image';
 
