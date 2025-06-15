@@ -26,12 +26,12 @@ const MainFooter = ({ children }: MainFooterProps) => {
                                         <div className="bd-footer-widget-contact-info">
                                             <div className="bd-footer-widget-contact-item">
                                                 <span>Phone:</span>
-                                                <Link href="tell:01-4112252">
-                                                   01-4112252</Link>
+                                                <Link href="tell:01-4112403">
+                                                   01-4112403</Link>
                                             </div>
                                             <div className="bd-footer-widget-contact-item">
                                                 <span>Email:</span>
-                                                <Link href="mailto:reliablecollege.com"> reliablecollege.com</Link>
+                                                <Link href="mailto:reliableintlcollege.com"> reliableintlcollege.com</Link>
                                             </div>
                                             <div className="bd-footer-widget-contact-item">
                                                 <span>Address:</span>

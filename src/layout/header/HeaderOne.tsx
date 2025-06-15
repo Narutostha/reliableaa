@@ -20,19 +20,19 @@ const HeaderFive = () => {
                 <div className="bd-header-top-left">
                   <ul className="d-flex flex-wrap align-items-center mb-0 list-none p-0 m-0">
                     <li className="me-4">
-                      <Link href="tel:+97714112252" className="text-decoration-none">
+                      <Link href="tel:+97714112403" className="text-decoration-none">
                         <span className="me-2">
                           <i className="fa-solid fa-phone-volume"></i>
                         </span>
-                        (977) 01-4112252
+                        (977) 01-4112403
                       </Link>
                     </li>
                     <li className="me-4">
-                      <Link href="mailto:reliablecollege@gmail.com" className="text-decoration-none">
+                      <Link href="mailto:reliableintlcollege@gmail.com" className="text-decoration-none">
                         <span className="me-2">
                           <i className="fa-sharp fa-light fa-envelope"></i>
                         </span>
-                        reliablecollege@gmail.com
+                        reliableintlcollege@gmail.com
                       </Link>
                     </li>
                     <li>

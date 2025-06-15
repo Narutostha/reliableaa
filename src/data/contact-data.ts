@@ -12,7 +12,7 @@ export const contactData: ContactItem[] = [
         icon: "fa-light fa-phone",
         title: "Call Us",
         details: [
-            "+977 01-4112252",
+            "+977 01-4112403",
         ]
     },
     {

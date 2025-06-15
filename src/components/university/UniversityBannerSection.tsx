@@ -1,8 +1,8 @@
 'use client'
 import React from 'react';
-import bannerImgOne from '../../../public/assets/images/banner/1.jpg'
-import bannerImgTwo from '../../../public/assets/images/banner/1.jpg'
-import bannerImgThree from '../../../public/assets/images/banner/1.jpg'
+import bannerImgOne from '../../../public/assets/images/banner/Banner.jpg'
+import bannerImgTwo from '../../../public/assets/images/banner/Banner.jpg'
+import bannerImgThree from '../../../public/assets/images/banner/Banner.jpg'
 
 //swiper
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -46,17 +46,14 @@ const UniversityBannerSection = () => {
                                                             className="fa-light fa-magnifying-glass"></i></button>
                                                     </div>
                                                     <div className="form-list">
+                                                        
                                                         <div className="form-list-item">
                                                             <span className="icon"><i className="fa-solid fa-check"></i></span>
-                                                            <p className="description">10K+ Students</p>
+                                                            <p className="description">2 Programs</p>
                                                         </div>
                                                         <div className="form-list-item">
                                                             <span className="icon"><i className="fa-solid fa-check"></i></span>
-                                                            <p className="description">50+ Programs</p>
-                                                        </div>
-                                                        <div className="form-list-item">
-                                                            <span className="icon"><i className="fa-solid fa-check"></i></span>
-                                                            <p className="description">200+ Professor</p>
+                                                            <p className="description">20+ Skilled Professor</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -86,15 +83,11 @@ const UniversityBannerSection = () => {
                                                     <div className="form-list">
                                                         <div className="form-list-item">
                                                             <span className="icon"><i className="fa-solid fa-check"></i></span>
-                                                            <p className="description">10K+ Students</p>
+                                                            <p className="description">2 Programs</p>
                                                         </div>
                                                         <div className="form-list-item">
                                                             <span className="icon"><i className="fa-solid fa-check"></i></span>
-                                                            <p className="description">50+ Programs</p>
-                                                        </div>
-                                                        <div className="form-list-item">
-                                                            <span className="icon"><i className="fa-solid fa-check"></i></span>
-                                                            <p className="description">200+ Professor</p>
+                                                            <p className="description">20+ Skilled Professor</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -122,17 +115,14 @@ const UniversityBannerSection = () => {
                                                             className="fa-light fa-magnifying-glass"></i></button>
                                                     </div>
                                                     <div className="form-list">
+                                                       
                                                         <div className="form-list-item">
                                                             <span className="icon"><i className="fa-solid fa-check"></i></span>
-                                                            <p className="description">10K+ Students</p>
+                                                            <p className="description">2 Programs</p>
                                                         </div>
                                                         <div className="form-list-item">
                                                             <span className="icon"><i className="fa-solid fa-check"></i></span>
-                                                            <p className="description">50+ Programs</p>
-                                                        </div>
-                                                        <div className="form-list-item">
-                                                            <span className="icon"><i className="fa-solid fa-check"></i></span>
-                                                            <p className="description">200+ Professor</p>
+                                                            <p className="description">20+ Skilled Professor</p>
                                                         </div>
                                                     </div>
                                                 </div>

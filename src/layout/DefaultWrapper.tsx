@@ -57,6 +57,7 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
     "/quran-learning": <HeaderOne />,
     "/language-academy": <HeaderOne />,
     "/book-store": <HeaderOne />,
+    "/apply-online": <HeaderOne />,
   };
 
   const footerMap: Record<string, React.ReactNode> = {
