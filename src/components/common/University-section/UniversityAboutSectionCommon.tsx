@@ -65,13 +65,7 @@ const UniversityAboutSectionCommon = () => {
                                         transformation education, equipping students with the knowledge, skills, and
                                         experiences essential for lifelong success and global impact.</p>
                                 </div>
-                                <div className="bd-about-feature-list">
-                                    <ul>
-                                        <li><i className="fa-regular fa-check"></i>Education Award Achived</li>
-                                        <li><i className="fa-regular fa-check"></i>Access Lifetime any Device</li>
-                                        <li><i className="fa-regular fa-check"></i>No Credit Card Required</li>
-                                    </ul>
-                                </div>
+                               
                                
                             </div>
                         </div>

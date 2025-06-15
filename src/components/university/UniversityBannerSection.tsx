@@ -40,11 +40,7 @@ const UniversityBannerSection = () => {
                                                 <h1 className="bd-banner-title white-text mb-25">Empowering Minds, Shaping
                                                     Futures</h1>
                                                 <div className="bd-banner-form">
-                                                    <div className="bd-banner-form-input">
-                                                        <input type="text" placeholder="Search Program" />
-                                                        <button className="bd-btn-icon btn-primary btn-large radius-50" type="button"><i
-                                                            className="fa-light fa-magnifying-glass"></i></button>
-                                                    </div>
+                                                    
                                                     <div className="form-list">
                                                         
                                                         <div className="form-list-item">
@@ -75,11 +71,7 @@ const UniversityBannerSection = () => {
                                                 <h1 className="bd-banner-title white-text mb-25">Empowering Minds, Shaping
                                                     Futures</h1>
                                                 <div className="bd-banner-form">
-                                                    <div className="bd-banner-form-input">
-                                                        <input type="text" placeholder="Search Program" />
-                                                        <button className="bd-btn-icon btn-primary btn-large radius-50" type="button"><i
-                                                            className="fa-light fa-magnifying-glass"></i></button>
-                                                    </div>
+                                                    
                                                     <div className="form-list">
                                                         <div className="form-list-item">
                                                             <span className="icon"><i className="fa-solid fa-check"></i></span>
@@ -109,11 +101,7 @@ const UniversityBannerSection = () => {
                                                 <h1 className="bd-banner-title white-text mb-25">Empowering Minds, Shaping
                                                     Futures</h1>
                                                 <div className="bd-banner-form">
-                                                    <div className="bd-banner-form-input">
-                                                        <input type="text" placeholder="Search Program" />
-                                                        <button className="bd-btn-icon btn-primary btn-large radius-50" type="button"><i
-                                                            className="fa-light fa-magnifying-glass"></i></button>
-                                                    </div>
+                                                    
                                                     <div className="form-list">
                                                        
                                                         <div className="form-list-item">

@@ -26,7 +26,7 @@ const programData: ProgramItem[] = [
     title: "Bachelor of Business Administration",
     description: "Develop essential business acumen and leadership skills through a comprehensive curriculum covering management, marketing, finance, and entrepreneurship.",
     duration: "4 Years",
-    credits: "12 Credits",
+    credits: "120 Credits",
     image: "/assets/images/bba.png"
   },
   {
@@ -36,7 +36,7 @@ const programData: ProgramItem[] = [
     title: "Master of Business Administration",
     description: "Advance your career with our rigorous MBA program designed for professionals seeking to develop strategic leadership capabilities and global business perspectives.",
     duration: "2 Years",
-    credits: "16 Credits",
+    credits: "60 Credits",
     image: "/assets/images/mba.png"
   }
 ];
